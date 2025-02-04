@@ -79,9 +79,29 @@ main div.container {
 ******/
 footer {
     background-color: #1a1a1a;
+    border-bottom: 1px solid white;
 }
 
+footer nav.container {
+    justify-content: space-between;
+    padding: 20px 0px;
+}
 
+footer nav ul {
+    align-self: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+footer nav ul .title {
+    width: 100%;
+    color: white;
+}
+
+footer nav ul.social {
+    justify-content: end;
+    text-align: end;
+}
 
 /* debug */
 
