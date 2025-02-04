@@ -70,6 +70,7 @@ main div.container {
     position: relative;
 }
 
+/* bottone wishlist */
 .card button {
     all: unset;
     height: 50px;
@@ -86,6 +87,7 @@ main div.container {
     color: red;
 }
 
+/* stile descrizione articolo */
 h2 {
     text-transform: uppercase;
     font-size: 15px;
@@ -107,24 +109,80 @@ h5 {
     font-weight: 300;
 }
 
+/* stickers */
 .sticker {
     font-size: 15px;
     font-weight: bolder;
     color: white;
-    padding: 8px 10px;
-    background-color: red;
     position: absolute;
     top: 577px;
+    display: flex;
+    gap: 4px;
 }
 
-.sticker.sust {
-    background-color: #008000;
-    left: 57px;
+.sticker .discount {
+    background-color: red;
+    padding: 8px 10px;
 }
+
+.sticker .sust {
+    background-color: #008000;
+    padding: 8px 10px;
+}
+
+/* display stickers */
+/* #levis-relaxed div.discount {
+    display: none;
+} */
+
+/* #levis-relaxed div.sust {
+    display: none;
+} */
+
+/* #guess-roses div.discount {
+    display: none;
+} */
+
+#guess-roses div.sust {
+    display: none;
+}
+
+/* #zucchero-pastello div.discount {
+    display: none;
+} */
+
+#zucchero-pastello div.sust {
+    display: none;
+}
+
+/* #levis-regular div.discount {
+    display: none;
+} */
+
+/* #levis-regular div.sust {
+    display: none;
+} */
+
+#maya-stripe div.discount {
+    display: none;
+}
+
+#maya-stripe div.sust {
+    display: none;
+}
+
+#esprit-maglione div.discount {
+    display: none;
+}
+
+/* #esprit-maglione div.sust {
+    display: none;
+} */
 
 .card a img {
     width: 100%;
 }
+
 
 
 /******
