@@ -56,6 +56,12 @@ header nav ul {
 ******/
 main {
     background-color: aqua;
+    padding: 60px 0px;
+}
+
+main div.container {
+    flex-wrap: wrap;
+    gap: 50px 10px;
 }
 
 /******
@@ -79,4 +85,11 @@ header nav.debug {
 
 footer nav.debug {
     height: 110px;
+}
+
+.card.debug {
+    width: auto;
+    height: 700px;
+    background-color: bisque;
+    flex-grow: 1;
 }
